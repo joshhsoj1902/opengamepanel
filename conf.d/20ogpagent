@@ -1,0 +1,15 @@
+#!/bin/bash
+
+svn co svn://svn.code.sf.net/p/hldstart/svn/trunk/agent/ /tmp/agent
+cd /tmp/agent
+
+#This is a hack until I figure out how TKL asks for Passwords suring initial 
+#install
+sudo useradd -g users -d /home/ogpuser -s /bin/bash -p '$1$Da7ykEsQ$5HqRg3g5VC9dFs.J7kU6Y/' ogpuser
+
+mkdir /home/ogpuser
+
+
+sudo bash ./install.sh optype ogpuser ogpuser /home/ogpuser
+
+

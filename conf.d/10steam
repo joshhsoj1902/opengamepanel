@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#steam Pre reqs
+
+sudo dpkg --add-architecture i386 # ONLY DEBIAN 7
+sudo apt-get update 
+sudo apt-get --assume-yes  install ia32-libs
