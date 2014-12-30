@@ -10,6 +10,7 @@ libdbd-mysql-perl        # A Perl5 database interface to the MySQL database
 php5-xdebug
 php-pear
 
+
 libxml-parser-perl
 libpath-class-perl
 libarchive-any-perl 
@@ -21,3 +22,11 @@ sudo
 e2fsprogs 
 subversion 
 unzip
+
+php5 
+php5-gd 
+php5-xmlrpc 
+php5-curl 
+php5-mysql 
+php-pear 
+curl

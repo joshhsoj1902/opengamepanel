@@ -12,4 +12,5 @@ mkdir /home/ogpuser
 
 sudo bash ./install.sh optype ogpuser ogpuser /home/ogpuser
 
-
+#TODO: Should this be a hook during initial boot?
+update-rc.d ogp_agent defaults 30
