@@ -1,38 +1,22 @@
-LAMP Stack - Web Stack (MySQL)
+Open Game Panel - Game control panel 
 ==============================
 
-LAMP stack is a popular open source web platform commonly used to run
-dynamic web sites and servers. It includes Linux, Apache, MySQL, and
-PHP/Python/Perl and is considered by many the platform of choice for
-development and deployment of high performance web applications which
-require a solid and reliable foundation.
+Open Game Panel is a managment tool to make hosting game servers much easier.
+It make sit possible to remotely launch games, install games and manage games.
 
-LAMP stack includes all the standard features in `TurnKey Core`_, and on
-top of that:
+More details can be found at it's home page. http://www.opengamepanel.org/
 
-- SSL support out of the box.
-- PHP, Python and Perl support for Apache2 and MySQL.
-- PHP development helpers
+This appliance will handle installing both the web client and the agent.
 
-    - `phpsh`_: interactive shell
-    - `php5-xdebug`_: debugging and profiling
-    - `php-pear`_: php extension and application repository
-    - php5-cli: command-line interpreter
-
-- `XCache`_ - PHP opcode caching acceleration.
-- `PHPMyAdmin`_ administration frontend for MySQL (listening on port
-  12322 - uses SSL).
-- `Postfix`_ MTA (bound to localhost) to allow sending of email from web
-  applications (e.g., password recovery).
-- Webmin modules for configuring Apache2, PHP, MySQL and Postfix.
-
-A separate `LAPP stack`_ appliance features PostgreSQL instead of MySQL.
+Based off Turnkey LAMP stack
 
 Credentials *(passwords set at first boot)*
 -------------------------------------------
 
 -  Webmin, SSH, MySQL, phpMyAdmin: username **root**
 
+.. _Open Game Panel: http://www.opengamepanel.org/
+.. _TurnKey LAMP: http://www.turnkeylinux.org/lampstack
 .. _TurnKey Core: http://www.turnkeylinux.org/core
 .. _phpsh: http://www.phpsh.org/
 .. _php5-xdebug: http://xdebug.org/
@@ -40,4 +24,3 @@ Credentials *(passwords set at first boot)*
 .. _XCache: http://xcache.lighttpd.net/
 .. _PHPMyAdmin: http://www.phpmyadmin.net/
 .. _Postfix: http://www.postfix.org/
-.. _LAPP stack: http://www.turnkeylinux.org/lapp
