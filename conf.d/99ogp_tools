@@ -1,0 +1,2 @@
+git clone https://github.com/joshhsoj1902/OGP-tools.git /usr/local/bin/OGP-tools/;
+rm -rf /usr/local/bin/OGP-tools/.git;

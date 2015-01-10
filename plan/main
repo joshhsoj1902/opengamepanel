@@ -22,6 +22,9 @@ sudo
 e2fsprogs 
 subversion 
 unzip
+libhttp-daemon-perl
+
+
 
 php5 
 php5-gd 

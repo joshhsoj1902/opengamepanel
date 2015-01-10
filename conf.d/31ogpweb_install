@@ -4,7 +4,7 @@ NAME=opengamepanel
 DB_PREFIX=ogp_
 DB_PASSWORD=$(mcookie)
 
-ADMIN_USER=ogpagent
+ADMIN_USER=admin
 ADMIN_PASS=turnkey
 ADMIN_MAIL=admin@example.com
 

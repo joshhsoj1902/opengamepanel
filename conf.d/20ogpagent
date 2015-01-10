@@ -8,9 +8,31 @@ cd /tmp/agent
 sudo useradd -g users -d /home/ogpuser -s /bin/bash -p '$1$Da7ykEsQ$5HqRg3g5VC9dFs.J7kU6Y/' ogpuser
 
 mkdir /home/ogpuser
+#mkdir /home/ogpuser/Cfg/ 
+#touch /home/ogpuser/Cfg/Config.pm
 
+chown -R ogpuser:users /home/ogpuser
 
-sudo bash ./install.sh optype ogpuser ogpuser /home/ogpuser
+sudo bash ./install.sh optype ogpuser ogpuser /home/ogpuser/OGP
+
+#TODO: Generate a renadom password rather then hardcoding is here and above
+#TODO: Rendomly generate a key somehow, but the web admin also needs it.
+#TODO: I SHOULD NOT BE ACCPETING THE STEAM AGREEMENT LIKE THIS
+sudo bash /home/ogpuser/OGP/agent_conf.sh -s ogpuser <<-END
+encryption_key
+12679
+0.0.0.0
+Accept
+yes
+yes
+30
+yes
+1
+yes
+no
+no
+no
+END
 
 #TODO: Should this be a hook during initial boot?
 update-rc.d ogp_agent defaults 30
