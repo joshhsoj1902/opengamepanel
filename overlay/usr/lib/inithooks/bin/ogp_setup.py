@@ -102,7 +102,8 @@ def main():
     d = Dialog('TurnKey Linux - First boot configuration')
     choices = [
                 ('Done','Continue Setup'),
-                ('L4D2','Install L4D2')
+                ('L4D2','Install L4D2'),
+                ('7dtd','7 Days To Die')
                ]
 
 
@@ -119,6 +120,10 @@ def main():
 
       if game_install == "L4D2":
         system("touch /tmp/l4d2")
+        game_install = ""
+
+      if game_install == "7dtd":
+        system("bash /usr/local/bin/OGP-tools/7dtd/7dtd_bootstrap_runner.sh")
         game_install = ""
 
     #    password = d.get_password(
