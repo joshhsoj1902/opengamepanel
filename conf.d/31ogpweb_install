@@ -29,6 +29,7 @@ EOF
 touch /var/www/includes/config.inc.php
 chmod 777 /var/www/includes/config.inc.php
 chmod -R 777 /var/www/modules/TS3Admin/templates_c
+chmod -R 777 /var/www/modules/config_games/server_configs
 
 URL="http://127.0.0.1/install.php"
 CURL="curl -c /tmp/cookie -b /tmp/cookie"
