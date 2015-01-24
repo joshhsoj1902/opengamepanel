@@ -1,3 +1,5 @@
 git clone https://github.com/joshhsoj1902/OGP-tools.git /usr/local/bin/OGP-tools/;
-rm -rf /usr/local/bin/OGP-tools/.git;
-cp -rp /usr/local/bin/OGP-tools/www/* /var/www
+#rm -rf /usr/local/bin/OGP-tools/.git;
+#cp -rp /usr/local/bin/OGP-tools/www/* /var/www
+ln -s /usr/local/bin/OGP-tools/www/downloads /var/www/;
+ln -s /usr/local/bin/OGP-tools/www/modules/config_games/server_configs/* /var/www/modules/config_games/server_configs/;
