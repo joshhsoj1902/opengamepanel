@@ -33,3 +33,5 @@ php5-curl
 php5-mysql 
 php-pear 
 curl
+
+telnet
