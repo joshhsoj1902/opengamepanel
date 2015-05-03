@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "deb http://ftp.debian.org/debian sid main" >> /etc/apt/sources.list.d/sources.list;
+
+apt-get update;
+
+DEBIAN_FRONTEND=noninteractive apt-get -t sid install -y libc6-amd64 libc6-dev libc6-dbg;
