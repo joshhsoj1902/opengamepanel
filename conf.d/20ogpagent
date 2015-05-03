@@ -15,7 +15,7 @@ chown -R ogpuser:users /home/ogpuser
 
 sudo bash ./install.sh optype ogpuser ogpuser /home/ogpuser/OGP
 
-#TODO: Generate a renadom password rather then hardcoding is here and above
+#TODO: Generate a random password rather then hardcoding is here and above
 #TODO: Rendomly generate a key somehow, but the web admin also needs it.
 #TODO: I SHOULD NOT BE ACCPETING THE STEAM AGREEMENT LIKE THIS
 sudo bash /home/ogpuser/OGP/agent_conf.sh -s ogpuser <<-END
