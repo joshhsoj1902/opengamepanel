@@ -8,6 +8,7 @@ cd /tmp/agent
 sudo useradd -g users -d /home/ogpuser -s /bin/bash -p '$1$Da7ykEsQ$5HqRg3g5VC9dFs.J7kU6Y/' ogpuser
 
 mkdir /home/ogpuser
+mkdir /home/ogpuser/web
 #mkdir /home/ogpuser/Cfg/ 
 #touch /home/ogpuser/Cfg/Config.pm
 

@@ -3,3 +3,4 @@
 svn co svn://svn.code.sf.net/p/hldstart/svn/trunk/upload/ /tmp/upload
 cp -rp /tmp/upload/* /var/www
 
+ln -s /home/ogpuser/web /var/www/web
