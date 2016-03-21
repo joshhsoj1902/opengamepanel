@@ -2,7 +2,7 @@ Open Game Panel - Game control panel
 ==============================
 
 Open Game Panel is a managment tool to make hosting game servers much easier.
-It make sit possible to remotely launch games, install games and manage games.
+It makes it possible to remotely launch games, install games and manage game server instances all from the web.
 
 More details can be found at it's home page. http://www.opengamepanel.org/
 
